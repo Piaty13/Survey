@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="styles.css">
+<meta charset="utf-8">
+<title>Survey</title>
+</head>
+
+<body>
+  
+  <h1 id="title">Coronavirus</h1>
+  <p id="description"><i>Thank you for participating in our survey</i></p>
+
+
+  <form id="survey-form">
+<fieldset>
+    
+<label for="name" id="name-label">Name</label><input id="name" type="text" required placeholder="Enter your name">
+<br/><br/>
+
+  <label for="email" id="email-label">Email</label><input id="email" type="email" required placeholder="Enter your email">
+  <br/><br/>
+
+  <label for="number" id="number-label">Age</label><input id="number" type="number" min="10" max="100" required placeholder="..."> <br/>
+  </fieldset>
+
+<fieldset>
+  
+  <label for="dropdown">What's your opinion on coronavirus? <br/>
+<select id="dropdown">
+  <option>(select one)</option>
+  <option>It's a disease</option>
+  <option>It's an experiment</option>
+  <option>It's a hoax</option>
+  <option>It is something else</option>
+  </select>
+  </label>
+</fieldset>
+
+<fieldset>
+  <br/>
+  <br/>
+  <label for="sex">What's your gender?</label>
+  <br/>
+<label for="male"><input type="radio" id="male" name="gender" value="male">Male</label>
+
+    <label for="female"><input type="radio" id="female"
+    name="gender" value="female">Female</label>
+
+    <br/>
+    
+</fieldset>
+
+<fieldset>
+  <br/>
+   <label for="aftermath">What will be different after covid?</label>
+   <br/>
+
+<label for="later"><input type="checkbox" id="later" value="checkbox1">People will be sick more often</label>
+<br/>
+
+
+<label for="politics"><input type="checkbox" id="politics" value="checkbox2">Political situation will change</label>
+<br/>
+
+<label for="war"><input type="checkbox" id="war" value="checkbox3">There will be war</label>
+<br/>
+
+<label for="nothing"><input type="checkbox" id="nothing" value="checkbox4">Everything would be same</label>
+<br/>
+
+<label for="better"><input type="checkbox" id="better" value="checkbox5">It would be better</label>
+</fieldset>
+
+<fieldset>
+  <br/>
+<label for="comments">Any further comments?</label> 
+<textarea id="comments" placeholder="..."></textarea>
+  </fieldset>
+
+  <fieldset>
+  
+<input type="submit" value="Submit" id="submit">
+</fieldset>
+
+  </form>
+
+  </body>
+
+  </html>

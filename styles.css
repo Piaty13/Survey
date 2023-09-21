@@ -1,0 +1,116 @@
+body {
+  margin:auto;
+  
+  
+  background-image:linear-gradient(180deg, rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.3)), url("https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/06/GettyImages-1204496872-800x1200.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  color:white;
+
+}
+
+#title {
+  font-size:43px;
+  text-align:center;
+  color:white;
+}
+
+#description {
+  font-size:28px;
+  text-align:center;
+  color:white;
+  
+}
+
+form {
+  width:600px;
+  margin:auto;
+}
+
+label[for=name], label[for=email], label[for=number], label [for=sex], label[for=male], label[for=female], label[for=comments], label[for=dropdown] {
+
+  display:block;
+  margin-left:5px;
+  
+
+}
+
+input[type=checkbox] {
+ vertical-align:middle;
+}
+
+label[for=name], label[for=email], label[for=number], label[for=sex], label[for=comments], label[for=aftermath], [for=dropdown]  {
+  font-size:23px;
+}
+
+
+input[type=text], input[type=email], input[type=number], input[type=comments], input[type=submit] {
+  width:560px;
+  height:33px;
+}
+
+#comments {
+  width:560px;
+  height:70px;
+}
+
+fieldset {
+  background:linear-gradient(90deg, rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 1))
+}
+
+label[for=name], label[for=dropdown], label[for=sex], label[for=aftermath], label[for=comments] {
+  margin-top:7px;
+}
+
+input[type=submit] {
+  background-color:#654321;
+  
+
+}
+
+
+#dropdown {
+  width:560px;
+  height:33px;
+}
+
+input[type=submit] {
+  margin-top:7px;
+  font-size:18px;
+}
+
+label[for=male], label[for=female], label[for=later], label[for=politics], label[for=war], label[for=nothing], label[for=better] {
+  font-size:19px;
+}
+
+input[type=radio] {
+  margin:5px;
+}
+
+input[type=checkbox] {
+  margin:5px;
+}
+
+option {
+  font-size:16px;
+}
+
+fieldset {
+  border:none;
+}
+
+input[type=checkbox] {
+  margin:7px;
+}
+
+input[type=radio] {
+  margin:7px;
+}
+
+label[for=dropdown], label[for=sex], label[for=aftermath] {
+  margin-left:5px;
+}
+
+html {
+  font-family:sans-serif;
+}
